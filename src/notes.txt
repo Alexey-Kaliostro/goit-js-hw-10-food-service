@@ -1,0 +1,6 @@
+// функция переключающая тему
+const onSwitch = () => {
+    console.log('switched'); // проверка работоспособности функции
+    themeRefs.bodyRef.classList.toggle(Theme.DARK) // переключатель темы
+    
+    };
